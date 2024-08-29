@@ -6,9 +6,9 @@ int main() {
 
     int start = 5;
 
-    for (i = start; i >= 1; i++) {
+    for (i = start; i >= 1; i--) {
            
-        for (j = start; j >= i; j++) {
+        for (j = start; j >= i; j--) {
            
             printf("%d ", j);
         }
